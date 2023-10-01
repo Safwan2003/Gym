@@ -1,0 +1,22 @@
+     .font{
+          /* Font name: EuclidCircularABold */
+font-size: 86px;
+font-weight: 500;
+line-height: 103.2px;
+color: rgb(35, 31, 64);
+text-shadow :   10px  10px   gainsboro;
+/* text-decoration: aqua; */
+
+}
+@media (max-width: 576px) {
+  .font {
+      font-size: 75px;
+      font-weight: 500;
+      line-height: 103.2px;
+  }
+}
+
+.nav-font:hover{
+  text-shadow :   0px  13px   gainsboro;
+  
+}
